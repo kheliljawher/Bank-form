@@ -5,7 +5,7 @@ const cin=/^[0-9]{8}$/;
 const rib=/^[0-9]{14}$/;
 const passwordValidator = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[0-9a-zA-Z]{8,}$/;
 
-class TodolistContainer extends React.Component {
+class FormContainer extends React.Components {
   constructor() {
     super();
     this.state = {
@@ -206,4 +206,4 @@ class TodolistContainer extends React.Component {
     );
   }
 }
-export default TodolistContainer;
+export default FormContainer;

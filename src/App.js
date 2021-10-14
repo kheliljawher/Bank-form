@@ -1,5 +1,5 @@
 import './App.css';
-import FormContainer from './Components/Form-Container';
+import FormContainer from './Components/form-component';
 function App() {
   return (
     <div >
